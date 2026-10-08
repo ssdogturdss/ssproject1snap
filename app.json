@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Synthetic Solutions Document Edition",
+    "slug": "synthetic-solutions-document-edition",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "synthetic-docs",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syntheticsolutions.documentedition"
+    },
+    "android": {
+      "package": "com.syntheticsolutions.documentedition"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-document-picker",
+      "expo-sharing"
+    ]
+  }
+}
